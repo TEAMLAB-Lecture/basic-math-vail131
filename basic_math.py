@@ -64,7 +64,7 @@ def get_mean(number_list):
             >>> bm.get_mean(number_list)
             47
     """
-    return int(sum(number_list)/len(number_list))
+    return sum(number_list)/len(number_list)
 
 
 def get_median(number_list):
